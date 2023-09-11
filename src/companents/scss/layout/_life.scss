@@ -1,0 +1,127 @@
+.life {
+   background: linear-gradient(90deg,
+         rgba(255, 239, 186, 0.58) 0%,
+         #ffffff 100%);
+   padding-top: calc(100px + 48px);
+
+   &__div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &_wrap {
+         width: 487px;
+         padding: 0 36px 0 0;
+         margin-top: 122px;
+         margin-bottom: 35px;
+
+         &--title {
+            width: 100%;
+            font-weight: 500;
+            font-size: 70px;
+            line-height: 82px;
+            color: #000000;
+         }
+
+         &--text {
+            font-weight: 300;
+            font-size: 19px;
+            line-height: 28px;
+            color: #000000;
+         }
+
+      }
+   }
+
+}
+
+
+@media only screen and (max-width:982px) {
+
+   .life__div_wrap--title {
+      width: 100%;
+      font-weight: 500;
+      font-size: 56px;
+      line-height: 76px;
+      color: #000000;
+   }
+   .life {
+      padding-top: 88px;
+  }
+}
+
+@media only screen and (max-width:770px) {
+
+   .life__div_wrap--title {
+      width: 100%;
+      font-weight: 500;
+      font-size: 46px;
+      line-height: 56px;
+      color: #000000;
+   }
+   .life {
+      padding-top: 10px;
+  }
+
+}
+
+
+
+@media only screen and (max-width:664px) {
+
+   .life__div_wrap--title {
+      font-weight: 500;
+      font-size: 38px;
+      line-height: 43px;
+      color: #000000;
+   }
+
+}
+
+
+@media only screen and (max-width:540px) {
+   .life__div_wrap--title {
+      font-weight: 500;
+      font-size: 57px;
+      line-height: 60px;
+      color: #000000;
+  }
+  .life__div_wrap {
+   margin: 0 auto;
+   max-width: 380px;
+   padding: 0px 0px 0 0;
+   margin-top: 6px;
+   margin-bottom: 34px;
+}
+
+   .life__div {
+      display: block;
+  }
+
+}
+
+
+@media only screen and (max-width:410px) {
+   .life__div_wrap--title {
+      font-weight: 500;
+      font-size: 31px;
+      line-height: 30px;
+      color: #000000;
+   }
+
+   .life__div_wrap--text {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      color: #000000;
+  }
+   
+  .life__div_wrap {
+   margin: 0 auto;
+   max-width: 300px;
+   padding: 0px 0px 0 0;
+   margin-top: 6px;
+   margin-bottom: 34px;
+}
+  
+}

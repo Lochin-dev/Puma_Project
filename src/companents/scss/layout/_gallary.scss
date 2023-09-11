@@ -1,0 +1,127 @@
+.gallary {
+  &__span {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ff8947;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    color: #000000;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_ul {
+    }
+  }
+
+  &__boots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &_title {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 39px;
+      color: #000000;
+    }
+  }
+}
+
+.puma_div {
+  max-width: 230px;
+  padding-left: 35px;
+}
+
+.gallary__wrap_span {
+  display: flex;
+  gap: 51px;
+}
+
+.gallary__wrap_span i {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 0;
+  width: 55px;
+  height: 55px;
+  background: #ffc79e;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.gallary__wrap_span i:active {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 0;
+  width: 55px;
+  height: 55px;
+  background: #ffdbc1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.gallery__wrap_ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  max-width: 607px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  &--list {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .gallery__wrap_ul {
+    gap: 17px;
+    max-width: 255px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .gallery__wrap_ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 255px;
+  }
+
+  .gallery__wrap_ul--list-title {
+    padding-right: 0px;
+  }
+
+  .gallery__title {
+    font-size: 20px;
+    padding: 0 0 15px;
+  }
+
+  .gallary__span {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    color: #ff8947;
+  }
+
+  .gallary__wrap_span {
+    display: none;
+  }
+}
